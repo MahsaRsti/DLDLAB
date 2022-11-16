@@ -1,0 +1,43 @@
+E:/seventh_sem/az_sys/Lab2/sequence_detector.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/sequence_detector.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sequence_detector
+
+Top level modules:
+	sequence_detector
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/tb.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/counter.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/topmodule.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/topmodule.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module topmodule
+
+Top level modules:
+	topmodule
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/SevSeg.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/SevSeg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SevSeg
+
+Top level modules:
+	SevSeg
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/OnePulser.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/OnePulser.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module onepulser
+
+Top level modules:
+	onepulser
+
+} {} {}}

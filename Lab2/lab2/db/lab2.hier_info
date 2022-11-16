@@ -1,0 +1,85 @@
+|topmodule
+clk => clk.IN3
+clkPB => clkPB.IN1
+rst => rst.IN1
+SerIn => SerIn.IN1
+SerOut <= sequence_detector:seq_dtctr.SerOut
+SerOutValid <= sequence_detector:seq_dtctr.SerOutValid
+seven_num[0] <= SevSeg:seven_seg.Num
+seven_num[1] <= SevSeg:seven_seg.Num
+seven_num[2] <= SevSeg:seven_seg.Num
+seven_num[3] <= SevSeg:seven_seg.Num
+seven_num[4] <= SevSeg:seven_seg.Num
+seven_num[5] <= SevSeg:seven_seg.Num
+seven_num[6] <= SevSeg:seven_seg.Num
+
+
+|topmodule|onepulser:oneplsr
+clk => ps~1.DATAIN
+long_pulse => ns.01.DATAB
+long_pulse => Selector1.IN2
+long_pulse => Selector0.IN1
+single_pulse <= single_pulse.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topmodule|sequence_detector:seq_dtctr
+rst => ps~3.DATAIN
+clk => ps~1.DATAIN
+clk_en => always1.IN0
+clk_en => always1.IN0
+clk_en => ns.100.OUTPUTSELECT
+clk_en => ns.100.IN1
+clk_en => Selector3.IN2
+clk_en => ns.011.OUTPUTSELECT
+clk_en => Selector4.IN4
+clk_en => always1.IN1
+clk_en => always1.IN1
+SerIn => always1.IN1
+SerIn => SerOut.DATAIN
+SerIn => always1.IN1
+co => Selector0.IN1
+co => Selector5.IN5
+SerOut <= SerOut.DB_MAX_OUTPUT_PORT_TYPE
+SerOutValid <= inc_cnt.DB_MAX_OUTPUT_PORT_TYPE
+inc_cnt <= inc_cnt.DB_MAX_OUTPUT_PORT_TYPE
+rst_cnt <= rst_cnt.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topmodule|Counter:cnt
+clk => count_out[0]~reg0.CLK
+clk => count_out[1]~reg0.CLK
+clk => count_out[2]~reg0.CLK
+clk => count_out[3]~reg0.CLK
+rst_cnt => count_out.OUTPUTSELECT
+rst_cnt => count_out.OUTPUTSELECT
+rst_cnt => count_out.OUTPUTSELECT
+rst_cnt => count_out.OUTPUTSELECT
+clk_en => count_out.OUTPUTSELECT
+clk_en => count_out.OUTPUTSELECT
+clk_en => count_out.OUTPUTSELECT
+clk_en => count_out.OUTPUTSELECT
+inc_cnt => count_out.OUTPUTSELECT
+inc_cnt => count_out.OUTPUTSELECT
+inc_cnt => count_out.OUTPUTSELECT
+inc_cnt => count_out.OUTPUTSELECT
+co <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+count_out[0] <= count_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_out[1] <= count_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_out[2] <= count_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count_out[3] <= count_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|topmodule|SevSeg:seven_seg
+Count_out[0] => Decoder0.IN3
+Count_out[1] => Decoder0.IN2
+Count_out[2] => Decoder0.IN1
+Count_out[3] => Decoder0.IN0
+Num[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Num[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Num[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Num[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Num[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Num[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Num[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

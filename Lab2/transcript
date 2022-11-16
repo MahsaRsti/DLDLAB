@@ -1,0 +1,220 @@
+# Compile of counter.v failed with 1 errors.
+# Compile of OnePulser.v failed with 1 errors.
+# Compile of sequence_detector.v failed with 18 errors.
+# Compile of tb.v failed with 1 errors.
+# Compile of topmodule.v failed with 1 errors.
+# 5 compiles, 5 failed with 22 errors.
+# Compile of counter.v failed with 2 errors.
+# Compile of counter.v was successful.
+# Compile of OnePulser.v failed with 1 errors.
+# Compile of OnePulser.v was successful.
+# Compile of sequence_detector.v failed with 18 errors.
+# Compile of sequence_detector.v failed with 18 errors.
+# Compile of sequence_detector.v failed with 18 errors.
+# Compile of sequence_detector.sv failed with 7 errors.
+# Compile of sequence_detector.sv failed with 3 errors.
+# Compile of sequence_detector.v failed with 16 errors.
+# Compile of sequence_detector.v failed with 16 errors.
+# Compile of sequence_detector.v failed with 16 errors.
+# Compile of sequence_detector.v failed with 16 errors.
+# Compile of sequence_detector.v failed with 1 errors.
+# Compile of sequence_detector.v was successful.
+# Compile of topmodule.v failed with 1 errors.
+# Compile of topmodule.v failed with 1 errors.
+# Compile of topmodule.v was successful.
+# Compile of tb.v failed with 1 errors.
+# Compile of tb.v was successful.
+# Compile of counter.v was successful.
+# Compile of OnePulser.v was successful.
+# Compile of tb.v was successful.
+# Compile of topmodule.v was successful.
+# Compile of sequence_detector.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb
+# vsim work.tb 
+# Start time: 17:48:03 on Nov 13,2022
+# Loading work.tb
+# Loading work.top_module
+# Loading work.onepulser
+# Loading work.sequence_detector
+# Loading work.Counter
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/tb/clk \
+sim:/tb/clkPB \
+sim:/tb/rst \
+sim:/tb/SerIn \
+sim:/tb/count_out \
+sim:/tb/SerOut \
+sim:/tb/SerOutValid
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run -all
+# Break key hit
+# Break in Module sequence_detector at E:/seventh_sem/az_sys/Lab2/sequence_detector.v line 24
+add wave -position insertpoint  \
+sim:/tb/tp_module/oneplsr/long_pulse \
+sim:/tb/tp_module/oneplsr/single_pulse \
+sim:/tb/tp_module/oneplsr/ps \
+sim:/tb/tp_module/oneplsr/ns
+add wave -position insertpoint  \
+sim:/tb/tp_module/seq_dtctr/rst \
+sim:/tb/tp_module/seq_dtctr/clk \
+sim:/tb/tp_module/seq_dtctr/clk_en \
+sim:/tb/tp_module/seq_dtctr/SerIn \
+sim:/tb/tp_module/seq_dtctr/co \
+sim:/tb/tp_module/seq_dtctr/SerOutValid \
+sim:/tb/tp_module/seq_dtctr/inc_cnt \
+sim:/tb/tp_module/seq_dtctr/rst_cnt \
+sim:/tb/tp_module/seq_dtctr/SerOut \
+sim:/tb/tp_module/seq_dtctr/ps \
+sim:/tb/tp_module/seq_dtctr/ns
+add wave -position insertpoint  \
+sim:/tb/tp_module/cnt/clk \
+sim:/tb/tp_module/cnt/rst_cnt \
+sim:/tb/tp_module/cnt/clk_en \
+sim:/tb/tp_module/cnt/inc_cnt \
+sim:/tb/tp_module/cnt/co \
+sim:/tb/tp_module/cnt/count_out
+restart -f
+run -continue
+# Break key hit
+# Break in Module onepulser at E:/seventh_sem/az_sys/Lab2/OnePulser.v line 15
+restart -f
+restart -f
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of topmodule.v was successful.
+# Compile of OnePulser.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top_module
+# Loading work.onepulser
+run -all
+# Break key hit
+# Break in Module tb at E:/seventh_sem/az_sys/Lab2/tb.v line 15
+# Compile of topmodule.v was successful.
+# Compile of counter.v was successful.
+# Compile of OnePulser.v was successful.
+# Compile of tb.v was successful.
+# Compile of topmodule.v was successful.
+# Compile of sequence_detector.v was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top_module
+# Loading work.onepulser
+# Loading work.sequence_detector
+# Loading work.Counter
+run -all
+# Break key hit
+# Break in Module tb at E:/seventh_sem/az_sys/Lab2/tb.v line 15
+# Compile of tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run -all
+# Break key hit
+# Break in Module tb at E:/seventh_sem/az_sys/Lab2/tb.v line 15
+# Compile of tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of counter.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Counter
+run -all
+# Break key hit
+# Break in Module tb at E:/seventh_sem/az_sys/Lab2/tb.v line 15
+# Compile of tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of counter.v failed with 1 errors.
+# Compile of counter.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Counter
+run -all
+# Break key hit
+# Break in Module tb at E:/seventh_sem/az_sys/Lab2/tb.v line 16
+# Compile of counter.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Counter
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of counter.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Counter
+run -all
+# Break key hit
+# Break in Module tb at E:/seventh_sem/az_sys/Lab2/tb.v line 15
+# Compile of SevSeg.v was successful.
+# Compile of counter.v was successful.
+# Compile of topmodule.v was successful.
+# Compile of topmodule.v failed with 1 errors.
+# Compile of topmodule.v was successful.
+# Compile of topmodule.v was successful.
+# Compile of sequence_detector.v was successful.
+quit -sim
+# End time: 16:57:02 on Nov 14,2022, Elapsed time: 23:08:59
+# Errors: 0, Warnings: 9

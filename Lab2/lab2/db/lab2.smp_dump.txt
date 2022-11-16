@@ -1,0 +1,15 @@
+
+State Machine - |topmodule|sequence_detector:seq_dtctr|ps
+Name ps.101 ps.100 ps.011 ps.010 ps.001 ps.000 
+ps.000 0 0 0 0 0 0 
+ps.001 0 0 0 0 1 1 
+ps.010 0 0 0 1 0 1 
+ps.011 0 0 1 0 0 1 
+ps.100 0 1 0 0 0 1 
+ps.101 1 0 0 0 0 1 
+
+State Machine - |topmodule|onepulser:oneplsr|ps
+Name ps.00 ps.10 ps.01 
+ps.00 0 0 0 
+ps.01 1 0 1 
+ps.10 1 1 0 

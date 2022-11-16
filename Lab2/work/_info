@@ -1,0 +1,174 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/seventh_sem/FIR
+vCounter
+!s110 1668353232
+!i10b 1
+!s100 `C5^]c@Rie]`O7k?d_@Uk1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IkjBSDG]9eBn6M^bUzeMO33
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/seventh_sem/az_sys/Lab2
+w1668351702
+8E:/seventh_sem/az_sys/Lab2/counter.v
+FE:/seventh_sem/az_sys/Lab2/counter.v
+!i122 30
+L0 1 31
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1668353232.000000
+!s107 E:/seventh_sem/az_sys/Lab2/counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/counter.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@counter
+vonepulser
+Z6 !s110 1668349726
+!i10b 1
+!s100 dAFBnI@3WU_1Vc[@Em>0B0
+R0
+I;VWk1@OHJQLnNHBOnT<Tg2
+R1
+R2
+w1668349710
+8E:/seventh_sem/az_sys/Lab2/OnePulser.v
+FE:/seventh_sem/az_sys/Lab2/OnePulser.v
+!i122 15
+L0 4 32
+R3
+r1
+!s85 0
+31
+Z7 !s108 1668349726.000000
+!s107 E:/seventh_sem/az_sys/Lab2/OnePulser.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/OnePulser.v|
+!i113 1
+R4
+R5
+vsequence_detector
+!s110 1668431013
+!i10b 1
+!s100 WNC6Ki^60aXS0QEEi<6jI0
+R0
+IfIgLJ85:kBS4cIk?HHCB[1
+R1
+R2
+w1668354116
+8E:/seventh_sem/az_sys/Lab2/sequence_detector.v
+FE:/seventh_sem/az_sys/Lab2/sequence_detector.v
+!i122 34
+L0 7 61
+R3
+r1
+!s85 0
+31
+!s108 1668431013.000000
+!s107 E:/seventh_sem/az_sys/Lab2/sequence_detector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/sequence_detector.v|
+!i113 1
+R4
+R5
+vSevSeg
+!s110 1668353228
+!i10b 1
+!s100 ZN2H`h86C6UYC>=ZOO;d30
+R0
+I[<:c_jI96XeO;@2^bQC0I1
+R1
+R2
+w1668353203
+8E:/seventh_sem/az_sys/Lab2/SevSeg.v
+FE:/seventh_sem/az_sys/Lab2/SevSeg.v
+!i122 29
+L0 2 23
+R3
+r1
+!s85 0
+31
+!s108 1668353228.000000
+!s107 E:/seventh_sem/az_sys/Lab2/SevSeg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/SevSeg.v|
+!i113 1
+R4
+R5
+n@sev@seg
+vtb
+!s110 1668350948
+!i10b 1
+!s100 H5SSQZK=Z^eEFWM]RGQcd2
+R0
+Iz8Kjjf_P3^oGl;TT:7AWA2
+R1
+R2
+w1668350939
+8E:/seventh_sem/az_sys/Lab2/tb.v
+FE:/seventh_sem/az_sys/Lab2/tb.v
+!i122 25
+L0 1 27
+R3
+r1
+!s85 0
+31
+!s108 1668350948.000000
+!s107 E:/seventh_sem/az_sys/Lab2/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/tb.v|
+!i113 1
+R4
+R5
+vtop_module
+R6
+!i10b 1
+!s100 4]Vg:K=JHm`dU0?iTQ4c70
+R0
+IFD@]Xg<^n_hF=3OOAc;a[0
+R1
+R2
+w1668349716
+Z8 8E:/seventh_sem/az_sys/Lab2/topmodule.v
+Z9 FE:/seventh_sem/az_sys/Lab2/topmodule.v
+!i122 17
+L0 1 45
+R3
+r1
+!s85 0
+31
+R7
+Z10 !s107 E:/seventh_sem/az_sys/Lab2/topmodule.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/topmodule.v|
+!i113 1
+R4
+R5
+vtopmodule
+!s110 1668353429
+!i10b 1
+!s100 fY[;3L=FB2nU9QWnm;PVo1
+R0
+I0;Y7MHSajWemneO6Ge24z0
+R1
+R2
+w1668353413
+R8
+R9
+!i122 33
+L0 1 48
+R3
+r1
+!s85 0
+31
+!s108 1668353429.000000
+R10
+R11
+!i113 1
+R4
+R5
