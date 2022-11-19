@@ -1,5 +1,6 @@
 module Counter(
     clk,
+    rst,
     rst_cnt,
     clk_en,
     inc_cnt,
@@ -7,12 +8,12 @@ module Counter(
     count_out
 );
 
-input clk,rst_cnt,clk_en,inc_cnt;
+input clk,rst_cnt,clk_en,inc_cnt,rst;
 output co;
 output reg  [3:0] count_out;
 
 always @(posedge clk) begin
-    if(rst_cnt) begin
+    if(rst_cnt | rst) begin
         count_out<=4'b0; 
         //co<=1'b0;
     end

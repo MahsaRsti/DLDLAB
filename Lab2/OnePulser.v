@@ -3,17 +3,21 @@
 `define B 2'b10
 module onepulser(
     clk,
+    rst,
     long_pulse,
     single_pulse
 );
-input clk, long_pulse;
+input clk, long_pulse,rst;
 output reg single_pulse;
 
-reg [1:0] ps=`init;
+reg [1:0] ps;
 reg [1:0] ns;
 
 always@(posedge clk) begin
-    ps<=ns;
+    if(rst)
+        ps<=`init;
+    else
+        ps<=ns;
 end
 
 always @(*) begin

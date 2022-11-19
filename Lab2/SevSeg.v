@@ -1,4 +1,3 @@
-`timescale 1ns/1ns
 module SevSeg(input [3:0] Count_out, output reg [6:0] Num);
 always @(Count_out) begin
 case(Count_out)

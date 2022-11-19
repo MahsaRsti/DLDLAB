@@ -21,7 +21,7 @@ output SerOut;
 
 reg [2:0] ps,ns;
 
-always@(posedge clk, posedge rst) begin
+always@(posedge clk) begin
     if(rst)
         ps<=`init;
     else

@@ -1,16 +1,16 @@
 module tb();
     reg clk=1,clkPB=1,rst,SerIn;
-    wire [3:0] count_out;
+    wire [6:0] seven_num;
     wire SerOut,SerOutValid;
 
-top_module tp_module(
+topmodule tp_module(
     clk,
     clkPB,
     rst,
     SerIn,
-    count_out,
     SerOut,
-    SerOutValid
+    SerOutValid,
+    seven_num
 );
 always #20 clk=~clk;
 always #40 clkPB=~clkPB;
@@ -19,7 +19,7 @@ initial begin
     #20 rst=0;
     #100 SerIn=1;
     #300 SerIn=0;
-    #100 SerIn=1;
+    #200 SerIn=1;
     #300 SerIn=1;
     #300 SerIn=1;
 end
