@@ -1,0 +1,375 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\DLD lab 7\Desktop\lab333
+vAdder
+Z1 I<PL0zAZ8VW0N@?lfL91Si3
+Z2 V6>Cl_93A_WVNHKCjdLOQ?1
+Z3 dC:\Users\DLD lab 7\Desktop\Lab3\quartus_sim\simulation\modelsim
+Z4 w1670161072
+Z5 8C:/Users/DLD lab 7/Desktop/Lab3/Adder.v
+Z6 FC:/Users/DLD lab 7/Desktop/Lab3/Adder.v
+L0 1
+Z7 OV;L;10.1b;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@adder
+Z10 !s100 h@z6<MZUbk678G3Y0:Qj71
+Z11 !s108 1668736346.501000
+Z12 !s107 C:/Users/DLD lab 7/Desktop/Lab3/Adder.v|
+Z13 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/Adder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vAmplitude_selector
+Z14 IdYC3;gCn4kb]JaFkKzeSi3
+Z15 V3fai2FNS_<QDn[LAT;Cl71
+R3
+Z16 w1670720261
+Z17 8C:/Users/DLD lab 7/Desktop/Lab3/Amplitude_selector.v
+Z18 FC:/Users/DLD lab 7/Desktop/Lab3/Amplitude_selector.v
+L0 1
+R7
+r1
+31
+R8
+Z19 n@amplitude_selector
+Z20 !s100 5^^4l^oURI3B=en0?[2PT1
+Z21 !s108 1668736346.626000
+Z22 !s107 C:/Users/DLD lab 7/Desktop/Lab3/Amplitude_selector.v|
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/Amplitude_selector.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vCounter
+Z24 I7ZUd4?GEAoA3AG^6XV`hz1
+Z25 VhGJbHNMP:Q3fTLil4cjGP0
+R3
+Z26 w1670718882
+Z27 8C:/Users/DLD lab 7/Desktop/Lab3/Counter.v
+Z28 FC:/Users/DLD lab 7/Desktop/Lab3/Counter.v
+L0 1
+R7
+r1
+31
+R8
+Z29 n@counter
+Z30 !s100 a<>]ZgeYVRK3gWk;Wio@J3
+Z31 !s108 1668736346.735000
+Z32 !s107 C:/Users/DLD lab 7/Desktop/Lab3/Counter.v|
+Z33 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/Counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcounter_with_ld
+Z34 InYQP`TSdd20Ga9ocT>gQ00
+Z35 V>z6k9[0TB]h0j<>?c6]DN2
+R3
+Z36 w1670763515
+Z37 8C:/Users/DLD lab 7/Desktop/Lab3/counter_with_ld.v
+Z38 FC:/Users/DLD lab 7/Desktop/Lab3/counter_with_ld.v
+L0 1
+R7
+r1
+31
+R8
+Z39 !s100 >H=4hUI2zH?XSj4a<AVS00
+Z40 !s108 1668736346.922000
+Z41 !s107 C:/Users/DLD lab 7/Desktop/Lab3/counter_with_ld.v|
+Z42 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/counter_with_ld.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDAC
+Z43 IJe4baX3Q2l]D8NbghVJaY0
+Z44 V^C7JcKn?55oTozQG_@I__1
+R3
+Z45 w1670765763
+Z46 8C:/Users/DLD lab 7/Desktop/Lab3/DAC.v
+Z47 FC:/Users/DLD lab 7/Desktop/Lab3/DAC.v
+L0 1
+R7
+r1
+31
+R8
+Z48 n@d@a@c
+Z49 !s100 5ZQS1O1AjnGc;8IP80k333
+Z50 !s108 1668736347.109000
+Z51 !s107 C:/Users/DLD lab 7/Desktop/Lab3/DAC.v|
+Z52 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/DAC.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDDS
+Z53 I2a3OL=?1J5NUzhi[LJF[i0
+Z54 VoP3`58]gSU7K1kOJNUBJZ3
+R3
+Z55 w1670536383
+Z56 8C:/Users/DLD lab 7/Desktop/Lab3/DDS.v
+Z57 FC:/Users/DLD lab 7/Desktop/Lab3/DDS.v
+L0 1
+R7
+r1
+31
+R8
+Z58 n@d@d@s
+Z59 !s100 7T[I<XQ8h?l9e?Sm`Vm>?2
+Z60 !s108 1668736347.281000
+Z61 !s107 C:/Users/DLD lab 7/Desktop/Lab3/DDS.v|
+Z62 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/DDS.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFrequency_selector
+Z63 I<<A2c42zXg9_^gUn578z62
+Z64 VZ<km?Z?PBU_:1nPXE:`e>1
+R3
+Z65 w1670763654
+Z66 8C:/Users/DLD lab 7/Desktop/Lab3/Frequency_selector.v
+Z67 FC:/Users/DLD lab 7/Desktop/Lab3/Frequency_selector.v
+L0 1
+R7
+r1
+31
+R8
+Z68 n@frequency_selector
+Z69 !s100 6em5UzTo5H7ck[Yka=P=S2
+Z70 !s108 1668736347.452000
+Z71 !s107 C:/Users/DLD lab 7/Desktop/Lab3/Frequency_selector.v|
+Z72 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/Frequency_selector.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vfull_wave
+Z73 ID@A2k2jD^3@>[Z7fgGl:30
+Z74 VOV4eUfS>4L=7ICLg2@Lmo0
+R3
+Z75 w1670166571
+Z76 8C:/Users/DLD lab 7/Desktop/Lab3/full_wave.v
+Z77 FC:/Users/DLD lab 7/Desktop/Lab3/full_wave.v
+L0 1
+R7
+r1
+31
+R8
+Z78 !s100 E7bDS`NG6fbOQO55YF@VT2
+Z79 !s108 1668736347.655000
+Z80 !s107 C:/Users/DLD lab 7/Desktop/Lab3/full_wave.v|
+Z81 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/full_wave.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vhalf_wave
+Z82 Im;AhQ7<@<gf@Z`lFm1;VE1
+Z83 VATV;[PBhWXz:YSnl>Lg]T3
+R3
+Z84 w1670166587
+Z85 8C:/Users/DLD lab 7/Desktop/Lab3/half_wave.v
+Z86 FC:/Users/DLD lab 7/Desktop/Lab3/half_wave.v
+L0 1
+R7
+r1
+31
+R8
+Z87 !s100 d^^[@<:HW_Czm2>[9XDVX1
+Z88 !s108 1668736348.154000
+Z89 !s107 C:/Users/DLD lab 7/Desktop/Lab3/half_wave.v|
+Z90 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/half_wave.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vquartus_sim
+Z91 IDn6zg@S2Sl;7W8_`VAU0l2
+Z92 V]6;O>loIz47mH=e=Z?5?l2
+R3
+Z93 w1668735843
+Z94 8C:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo
+Z95 FC:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo
+L0 31
+R7
+r1
+31
+R8
+Z96 !s100 17C^YbO5TMk:TfSWFzJmi1
+Z97 !s108 1668736346.267000
+Z98 !s107 C:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo|
+Z99 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vReciprocal
+Z100 ICUVz5A<1;hS7RObE4Y=863
+Z101 VPT]>XTZ6Hdik?^A?ozdan1
+R3
+Z102 w1670765426
+Z103 8C:/Users/DLD lab 7/Desktop/Lab3/Reciprocal.v
+Z104 FC:/Users/DLD lab 7/Desktop/Lab3/Reciprocal.v
+L0 1
+R7
+r1
+31
+R8
+Z105 n@reciprocal
+Z106 !s100 X;Pie_g?iOl^;8ob;SU0G3
+Z107 !s108 1668736348.357000
+Z108 !s107 C:/Users/DLD lab 7/Desktop/Lab3/Reciprocal.v|
+Z109 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/Reciprocal.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRegister
+Z110 Iei1`P?<YABOG`HXWmC4;E3
+Z111 Vlij8lczRT_ahGkORSJJli2
+R3
+Z112 w1670160641
+Z113 8C:/Users/DLD lab 7/Desktop/Lab3/Register.v
+Z114 FC:/Users/DLD lab 7/Desktop/Lab3/Register.v
+L0 1
+R7
+r1
+31
+R8
+Z115 n@register
+Z116 !s100 BiTb7l822KogbVDb9WB=g3
+Z117 !s108 1668736348.529000
+Z118 !s107 C:/Users/DLD lab 7/Desktop/Lab3/Register.v|
+Z119 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/Register.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsine
+Z120 IgCQ@0=W[N8PHM`k1BFz=?0
+Z121 Vamd5AiN7YDk17E8BP4g:T3
+R3
+Z122 w1670166465
+Z123 8C:/Users/DLD lab 7/Desktop/Lab3/sine.v
+Z124 FC:/Users/DLD lab 7/Desktop/Lab3/sine.v
+L0 1
+R7
+r1
+31
+R8
+Z125 !s100 lIdT3>]:Zo=XV8@JmIUnd3
+Z126 !s108 1668736348.654000
+Z127 !s107 C:/Users/DLD lab 7/Desktop/Lab3/sine.v|
+Z128 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/sine.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsinROM
+Z129 I`2TIn^8:X?f@6mzKRSPL`3
+Z130 V^^Q2k]IXJ]Z9>53IJ<20A3
+R3
+Z131 w1670764694
+Z132 8C:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/sinROM.v
+Z133 FC:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/sinROM.v
+L0 39
+R7
+r1
+31
+R8
+Z134 nsin@r@o@m
+Z135 !s100 K5k>^07_=9>3P2T6RBON70
+Z136 !s108 1668736349.558000
+Z137 !s107 C:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/sinROM.v|
+Z138 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/sinROM.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsquare
+Z139 Ifb5GWC7ncPjRO2gSYIi2d0
+Z140 V=lX;O<R=_Ml7Mj?[94jNb2
+R3
+Z141 w1670158993
+Z142 8C:/Users/DLD lab 7/Desktop/Lab3/square.v
+Z143 FC:/Users/DLD lab 7/Desktop/Lab3/square.v
+L0 1
+R7
+r1
+31
+R8
+Z144 !s100 JlGL]31SBO1jJN3UDM1^C2
+Z145 !s108 1668736348.778000
+Z146 !s107 C:/Users/DLD lab 7/Desktop/Lab3/square.v|
+Z147 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/square.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vsubtractor
+Z148 IPK>h8eD3z?C<1oH;]B2R@1
+Z149 VJ0FDLUa4X]2LmMR@nin?L3
+R3
+Z150 w1670160967
+Z151 8C:/Users/DLD lab 7/Desktop/Lab3/subtractor.v
+Z152 FC:/Users/DLD lab 7/Desktop/Lab3/subtractor.v
+L0 1
+R7
+r1
+31
+R8
+Z153 !s100 W>:P040]>JGBV2Ye`0m?W3
+Z154 !s108 1668736348.903000
+Z155 !s107 C:/Users/DLD lab 7/Desktop/Lab3/subtractor.v|
+Z156 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/subtractor.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtriangle
+Z157 I_BMb`B>_TR^^<Cz6b3;m60
+Z158 V78R_1c5OcjKmOa`>M82AN1
+R3
+Z159 w1670168168
+Z160 8C:/Users/DLD lab 7/Desktop/Lab3/triangle.v
+Z161 FC:/Users/DLD lab 7/Desktop/Lab3/triangle.v
+L0 1
+R7
+r1
+31
+R8
+Z162 !s100 j49SA8`53GoY59Xe@EmLA2
+Z163 !s108 1668736349.012000
+Z164 !s107 C:/Users/DLD lab 7/Desktop/Lab3/triangle.v|
+Z165 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/triangle.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vwave_gen_core
+Z166 IJRCPk^2Dg68WWoZ4?Q_NV2
+Z167 Vb[e?1S2d29zzQF^7kOiOK2
+R3
+Z168 w1670766657
+Z169 8C:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core.v
+Z170 FC:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core.v
+L0 1
+R7
+r1
+31
+R8
+Z171 !s100 E>>58cAE7QIeL][91=0Q;0
+Z172 !s108 1668736349.137000
+Z173 !s107 C:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core.v|
+Z174 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vwave_gen_core_tb
+!i10b 1
+!s100 kLZLIDNGJYClNJ4WgkVh?0
+IB[SXa3;89I19Ec8B_=:oj3
+Z175 VifR_N>hzTBcUY4CCO3h=Z0
+R3
+w1668736609
+Z176 8C:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core_tb.v
+Z177 FC:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1668736621.167000
+!s107 C:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core_tb.v|
+Z178 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core_tb.v|
+!s101 -O0
+R8

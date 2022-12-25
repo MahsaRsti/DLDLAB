@@ -1,5 +1,5 @@
 Flow report for lab2
-Sun Nov 13 19:12:22 2022
+Wed Nov 30 23:22:35 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Sun Nov 13 19:12:22 2022           ;
+; Flow Status                        ; Successful - Wed Nov 30 23:22:35 2022           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; lab2                                            ;
 ; Top-level Entity Name              ; topmodule                                       ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C20F484C7                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 25 / 18,752 ( < 1 % )                           ;
-;     Total combinational functions  ; 25 / 18,752 ( < 1 % )                           ;
+; Total logic elements               ; 29 / 18,752 ( < 1 % )                           ;
+;     Total combinational functions  ; 29 / 18,752 ( < 1 % )                           ;
 ;     Dedicated logic registers      ; 12 / 18,752 ( < 1 % )                           ;
 ; Total registers                    ; 12                                              ;
 ; Total pins                         ; 13 / 315 ( 4 % )                                ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/13/2022 19:12:10 ;
+; Start date & time ; 11/30/2022 23:22:22 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab2                ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 268619664939393.166835413025908       ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 268619664939393.166983794221356       ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --             ;
@@ -96,10 +96,10 @@ applicable agreement for further details.
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4591 MB             ; 00:00:01                           ;
-; Fitter                    ; 00:00:04     ; 1.0                     ; 5249 MB             ; 00:00:04                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 4563 MB             ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4612 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4523 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:03     ; 1.0                     ; 5249 MB             ; 00:00:04                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4564 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4598 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4523 MB             ; 00:00:01                           ;
 ; Total                     ; 00:00:11     ; --                      ; --                  ; 00:00:10                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 

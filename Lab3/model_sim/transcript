@@ -1,0 +1,24 @@
+# Compile of Adder.v was successful.
+# Compile of Amplitude_selector.v was successful.
+# Compile of Counter.v was successful.
+# Compile of counter_with_ld.v was successful.
+# Compile of DAC.v was successful.
+# Compile of DDS.v was successful.
+# Compile of Frequency_selector.v was successful.
+# Compile of full_wave.v was successful.
+# Compile of half_wave.v was successful.
+# Compile of Reciprocal.v was successful.
+# Compile of Register.v was successful.
+# Compile of sine.v was successful.
+# Compile of sinROM.v was successful.
+# Compile of square.v was successful.
+# Compile of subtractor.v was successful.
+# Compile of triangle.v was successful.
+# Compile of wave_gen_core.v was successful.
+# Compile of wave_gen_core_tb.v was successful.
+# Compile of sinROM.v was successful.
+# 19 compiles, 0 failed with no errors.
+# Compile of quartus_sim.vo was successful.
+# Load canceled
+# Compile of wave_gen_core_tb.v was successful.
+# Load canceled

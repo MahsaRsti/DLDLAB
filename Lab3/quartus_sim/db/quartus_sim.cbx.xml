@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="quartus_sim">
+		<CBX_INST_ENTRY INSTANCE_NAME="|quartus_sim|wave_gen_core:inst|DDS:DDS_wave|sinROM:sine_ROM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_if91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|quartus_sim|wave_gen_core:inst|Reciprocal:reciprocal_wave|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_5dm.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

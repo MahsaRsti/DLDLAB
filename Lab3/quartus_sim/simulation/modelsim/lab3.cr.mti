@@ -1,0 +1,134 @@
+{C:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/sinROM.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/sinROM.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module sinROM
+
+Top level modules:
+	sinROM
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/Reciprocal.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/Reciprocal.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Reciprocal
+
+Top level modules:
+	Reciprocal
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/Amplitude_selector.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/Amplitude_selector.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Amplitude_selector
+
+Top level modules:
+	Amplitude_selector
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/half_wave.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/half_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module half_wave
+
+Top level modules:
+	half_wave
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/Register.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/Register.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/triangle.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/triangle.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module triangle
+
+Top level modules:
+	triangle
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/Counter.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/Counter.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/DAC.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/DAC.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module DAC
+
+Top level modules:
+	DAC
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/subtractor.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/subtractor.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module subtractor
+
+Top level modules:
+	subtractor
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/square.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/square.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module square
+
+Top level modules:
+	square
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/Frequency_selector.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/Frequency_selector.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Frequency_selector
+
+Top level modules:
+	Frequency_selector
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module wave_gen_core
+
+Top level modules:
+	wave_gen_core
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module quartus_sim
+
+Top level modules:
+	quartus_sim
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/full_wave.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/full_wave.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module full_wave
+
+Top level modules:
+	full_wave
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/sine.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/sine.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module sine
+
+Top level modules:
+	sine
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/Adder.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/Adder.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core_tb.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/wave_gen_core_tb.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module wave_gen_core_tb
+
+Top level modules:
+	wave_gen_core_tb
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/counter_with_ld.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/counter_with_ld.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module counter_with_ld
+
+Top level modules:
+	counter_with_ld
+
+} {} {}} {C:/Users/DLD lab 7/Desktop/Lab3/DDS.v} {1 {vlog -work work {C:/Users/DLD lab 7/Desktop/Lab3/DDS.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module DDS
+
+Top level modules:
+	DDS
+
+} {} {}}

@@ -1,5 +1,5 @@
 Assembler report for lab2
-Sun Nov 13 19:12:18 2022
+Wed Nov 30 23:22:30 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: E:/seventh_sem/az_sys/Lab2/lab2/output_files/lab2.sof
-  6. Assembler Device Options: E:/seventh_sem/az_sys/Lab2/lab2/output_files/lab2.pof
+  5. Assembler Device Options: E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab2/lab2/output_files/lab2.sof
+  6. Assembler Device Options: E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab2/lab2/output_files/lab2.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun Nov 13 19:12:18 2022 ;
+; Assembler Status      ; Successful - Wed Nov 30 23:22:30 2022 ;
 ; Revision Name         ; lab2                                  ;
 ; Top-level Entity Name ; topmodule                             ;
 ; Family                ; Cyclone II                            ;
@@ -78,37 +78,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-------------------------------------------------------+
-; Assembler Generated Files                             ;
-+-------------------------------------------------------+
-; File Name                                             ;
-+-------------------------------------------------------+
-; E:/seventh_sem/az_sys/Lab2/lab2/output_files/lab2.sof ;
-; E:/seventh_sem/az_sys/Lab2/lab2/output_files/lab2.pof ;
-+-------------------------------------------------------+
++-------------------------------------------------------------------+
+; Assembler Generated Files                                         ;
++-------------------------------------------------------------------+
+; File Name                                                         ;
++-------------------------------------------------------------------+
+; E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab2/lab2/output_files/lab2.sof ;
+; E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab2/lab2/output_files/lab2.pof ;
++-------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------+
-; Assembler Device Options: E:/seventh_sem/az_sys/Lab2/lab2/output_files/lab2.sof ;
-+----------------+----------------------------------------------------------------+
-; Option         ; Setting                                                        ;
-+----------------+----------------------------------------------------------------+
-; Device         ; EP2C20F484C7                                                   ;
-; JTAG usercode  ; 0x001B4E82                                                     ;
-; Checksum       ; 0x001B4E82                                                     ;
-+----------------+----------------------------------------------------------------+
++---------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab2/lab2/output_files/lab2.sof ;
++----------------+----------------------------------------------------------------------------+
+; Option         ; Setting                                                                    ;
++----------------+----------------------------------------------------------------------------+
+; Device         ; EP2C20F484C7                                                               ;
+; JTAG usercode  ; 0x001B59C5                                                                 ;
+; Checksum       ; 0x001B59C5                                                                 ;
++----------------+----------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------+
-; Assembler Device Options: E:/seventh_sem/az_sys/Lab2/lab2/output_files/lab2.pof ;
-+--------------------+------------------------------------------------------------+
-; Option             ; Setting                                                    ;
-+--------------------+------------------------------------------------------------+
-; Device             ; EPCS16                                                     ;
-; JTAG usercode      ; 0x00000000                                                 ;
-; Checksum           ; 0x1DD9776E                                                 ;
-; Compression Ratio  ; 3                                                          ;
-+--------------------+------------------------------------------------------------+
++---------------------------------------------------------------------------------------------+
+; Assembler Device Options: E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab2/lab2/output_files/lab2.pof ;
++--------------------+------------------------------------------------------------------------+
+; Option             ; Setting                                                                ;
++--------------------+------------------------------------------------------------------------+
+; Device             ; EPCS16                                                                 ;
+; JTAG usercode      ; 0x00000000                                                             ;
+; Checksum           ; 0x1DD96905                                                             ;
+; Compression Ratio  ; 3                                                                      ;
++--------------------+------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -117,15 +117,15 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Nov 13 19:12:16 2022
+    Info: Processing started: Wed Nov 30 23:22:28 2022
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off lab2 -c lab2
 Warning (292000): FLEXlm software error: Future license file format or misspelling in license file.  The file was issued for a later version of FLEXnet Licensing than this  program understands. Feature:       quartus License text:  f02300000000" SN=28994724 SIGN2=0 License path:  C:\flexlm\LICENSE.DAT FLEXnet Licensing error:-90,313 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
 Warning (292000): FLEXlm software error: Future license file format or misspelling in license file.  The file was issued for a later version of FLEXnet Licensing than this  program understands. Feature:       quartus_talkback License text:  f02300000000" SN=28994724 SIGN2=0 License path:  C:\flexlm\LICENSE.DAT FLEXnet Licensing error:-90,313 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 16 warnings
-    Info: Peak virtual memory: 4571 megabytes
-    Info: Processing ended: Sun Nov 13 19:12:18 2022
+    Info: Peak virtual memory: 4572 megabytes
+    Info: Processing ended: Wed Nov 30 23:22:30 2022
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

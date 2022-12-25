@@ -1,5 +1,5 @@
 EDA Netlist Writer report for lab2
-Sun Nov 13 19:12:22 2022
+Wed Nov 30 23:22:35 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun Nov 13 19:12:22 2022 ;
+; EDA Netlist Writer Status ; Successful - Wed Nov 30 23:22:35 2022 ;
 ; Revision Name             ; lab2                                  ;
 ; Top-level Entity Name     ; topmodule                             ;
 ; Family                    ; Cyclone II                            ;
@@ -66,16 +66,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+---------------------------------------------------------------------+
-; Simulation Generated Files                                          ;
-+---------------------------------------------------------------------+
-; Generated Files                                                     ;
-+---------------------------------------------------------------------+
-; E:/seventh_sem/az_sys/Lab2/lab2/simulation/modelsim/lab2.vo         ;
-; E:/seventh_sem/az_sys/Lab2/lab2/simulation/modelsim/lab2_fast.vo    ;
-; E:/seventh_sem/az_sys/Lab2/lab2/simulation/modelsim/lab2_v.sdo      ;
-; E:/seventh_sem/az_sys/Lab2/lab2/simulation/modelsim/lab2_v_fast.sdo ;
-+---------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Simulation Generated Files                                                      ;
++---------------------------------------------------------------------------------+
+; Generated Files                                                                 ;
++---------------------------------------------------------------------------------+
+; E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab2/lab2/simulation/modelsim/lab2.vo         ;
+; E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab2/lab2/simulation/modelsim/lab2_fast.vo    ;
+; E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab2/lab2/simulation/modelsim/lab2_v.sdo      ;
+; E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab2/lab2/simulation/modelsim/lab2_v_fast.sdo ;
++---------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -84,15 +84,15 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sun Nov 13 19:12:21 2022
+    Info: Processing started: Wed Nov 30 23:22:33 2022
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off lab2 -c lab2
 Warning (292000): FLEXlm software error: Future license file format or misspelling in license file.  The file was issued for a later version of FLEXnet Licensing than this  program understands. Feature:       quartus License text:  f02300000000" SN=28994724 SIGN2=0 License path:  C:\flexlm\LICENSE.DAT FLEXnet Licensing error:-90,313 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
 Warning (292000): FLEXlm software error: Future license file format or misspelling in license file.  The file was issued for a later version of FLEXnet Licensing than this  program understands. Feature:       quartus_talkback License text:  f02300000000" SN=28994724 SIGN2=0 License path:  C:\flexlm\LICENSE.DAT FLEXnet Licensing error:-90,313 For further information, refer to the FLEXnet Licensing End User Guide, available at "www.macrovision.com".
-Info (204026): Generated files "lab2.vo", "lab2_fast.vo", "lab2_v.sdo" and "lab2_v_fast.sdo" in directory "E:/seventh_sem/az_sys/Lab2/lab2/simulation/modelsim/" for EDA simulation tool
+Info (204026): Generated files "lab2.vo", "lab2_fast.vo", "lab2_v.sdo" and "lab2_v_fast.sdo" in directory "E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab2/lab2/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 16 warnings
     Info: Peak virtual memory: 4535 megabytes
-    Info: Processing ended: Sun Nov 13 19:12:22 2022
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Wed Nov 30 23:22:35 2022
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

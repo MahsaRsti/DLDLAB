@@ -1,0 +1,457 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/seventh_sem/az_sys/lab3
+vAdder
+!s110 1670767826
+!i10b 1
+!s100 hR5bmz^g52S0bjJ]e>ZnF2
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0197ZNij0RP^`CGHY`7@Q1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/model_sim
+w1670161072
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Adder.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Adder.v
+!i122 0
+Z3 L0 1 13
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1670767826.000000
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@adder
+vAmplitude_selector
+Z8 !s110 1670767827
+!i10b 1
+!s100 Zk>66a>P^lJIP9ePo9a:70
+R0
+Io<hHiM3ZZJ4678LQhW0^52
+R1
+R2
+w1670720261
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Amplitude_selector.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Amplitude_selector.v
+!i122 1
+L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Amplitude_selector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Amplitude_selector.v|
+!i113 1
+R6
+R7
+n@amplitude_selector
+vCounter
+R8
+!i10b 1
+!s100 C2BAL]eQ28;2OR2?ikcm]2
+R0
+I7FhAWN=QHP4V8`o8?j>=d1
+R1
+R2
+w1670718882
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Counter.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Counter.v
+!i122 2
+Z9 L0 1 23
+R4
+r1
+!s85 0
+31
+Z10 !s108 1670767827.000000
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Counter.v|
+!i113 1
+R6
+R7
+n@counter
+vcounter_with_ld
+R8
+!i10b 1
+!s100 NbhPIe@T26`1BBFG:cnIg2
+R0
+I0zgiXQ@2n;aR?LBZBJ<hA3
+R1
+R2
+w1670763515
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/counter_with_ld.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/counter_with_ld.v
+!i122 3
+L0 1 26
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/counter_with_ld.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/counter_with_ld.v|
+!i113 1
+R6
+R7
+vDAC
+R8
+!i10b 1
+!s100 i:E1WX_[f^M2KVkfE?`=o3
+R0
+I0gO:adjC7a0?MO;n2d>=G3
+R1
+R2
+w1670765763
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DAC.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DAC.v
+!i122 4
+Z11 L0 1 25
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DAC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DAC.v|
+!i113 1
+R6
+R7
+n@d@a@c
+vDDS
+R8
+!i10b 1
+!s100 Ae8E;KXQhR;@YSnWo==M=2
+R0
+I;08TSAFE_dW[moXj0=k[V0
+R1
+R2
+w1670536383
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DDS.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DDS.v
+!i122 5
+L0 1 18
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DDS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DDS.v|
+!i113 1
+R6
+R7
+n@d@d@s
+vFrequency_selector
+R8
+!i10b 1
+!s100 cRY`mAPkIR4_Si1L0AlnQ3
+R0
+I;1S;6:V3hA`3EV4e_o`:>2
+R1
+R2
+w1670763654
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Frequency_selector.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Frequency_selector.v
+!i122 6
+L0 1 16
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Frequency_selector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Frequency_selector.v|
+!i113 1
+R6
+R7
+n@frequency_selector
+vfull_wave
+Z12 !s110 1670767828
+!i10b 1
+!s100 mkdlWZ;eQZXAGbS=CeC9l0
+R0
+IbFbe;Lc5gHObc41lfF3HC3
+R1
+R2
+w1670166571
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/full_wave.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/full_wave.v
+!i122 7
+R3
+R4
+r1
+!s85 0
+31
+R10
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/full_wave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/full_wave.v|
+!i113 1
+R6
+R7
+vhalf_wave
+R12
+!i10b 1
+!s100 R^[`lbKzGO2?V9l:e=i]A3
+R0
+I>V5D7`CE]hizKjFj2a?`g0
+R1
+R2
+w1670166587
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/half_wave.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/half_wave.v
+!i122 8
+R3
+R4
+r1
+!s85 0
+31
+Z13 !s108 1670767828.000000
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/half_wave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/half_wave.v|
+!i113 1
+R6
+R7
+vquartus_sim
+!s110 1670768165
+!i10b 1
+!s100 LO0<23V;E1:>QmOmLemlM1
+R0
+IRQ8A]_2hB0FRLk31fGK@[1
+R1
+R2
+w1670768076
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo
+!i122 19
+L0 31 5876
+R4
+r1
+!s85 0
+31
+!s108 1670768165.000000
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo|
+!i113 1
+R6
+R7
+vReciprocal
+R12
+!i10b 1
+!s100 TgcK^ebA0LKfPC_<DjGYd3
+R0
+I2FnjoO=C5bY]ZHJhTXS7d1
+R1
+R2
+w1670765426
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Reciprocal.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Reciprocal.v
+!i122 9
+Z14 L0 1 14
+R4
+r1
+!s85 0
+31
+R13
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Reciprocal.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Reciprocal.v|
+!i113 1
+R6
+R7
+n@reciprocal
+vRegister
+R12
+!i10b 1
+!s100 BEMdbOO^;3HQcAYViXoNQ0
+R0
+IBMTllD>d>^<zUVBHF^KAk3
+R1
+R2
+w1670160641
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Register.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Register.v
+!i122 10
+R9
+R4
+r1
+!s85 0
+31
+R13
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Register.v|
+!i113 1
+R6
+R7
+n@register
+vsine
+R12
+!i10b 1
+!s100 Qgg1GlVKMbcZjW[TT:;R;0
+R0
+ID8@S]]MgTih4SlnGCVOYe1
+R1
+R2
+w1670166465
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/sine.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/sine.v
+!i122 11
+R11
+R4
+r1
+!s85 0
+31
+R13
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/sine.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/sine.v|
+!i113 1
+R6
+R7
+vsinROM
+!s110 1670767830
+!i10b 1
+!s100 N3TDjfOzoJ3=]zU47oHX`2
+R0
+Ih2GBb_Y:G<`DmOJ4HK1o82
+R1
+R2
+w1670764694
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/model_sim/sinROM.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/model_sim/sinROM.v
+!i122 18
+L0 39 61
+R4
+r1
+!s85 0
+31
+Z15 !s108 1670767829.000000
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/model_sim/sinROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/model_sim/sinROM.v|
+!i113 1
+R6
+R7
+nsin@r@o@m
+vsquare
+Z16 !s110 1670767829
+!i10b 1
+!s100 2Q<V=CJZ3lhPH@[kJDkEi2
+R0
+I:zN;BnOg8E1F7enA:ihjC2
+R1
+R2
+w1670158993
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/square.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/square.v
+!i122 13
+R14
+R4
+r1
+!s85 0
+31
+R15
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/square.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/square.v|
+!i113 1
+R6
+R7
+vsubtractor
+R16
+!i10b 1
+!s100 TE6m;TmA9nb<NKg212m`R2
+R0
+IocGKhkiD>`2Z^]WTeG?KV0
+R1
+R2
+w1670160967
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/subtractor.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/subtractor.v
+!i122 14
+L0 1 11
+R4
+r1
+!s85 0
+31
+R15
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/subtractor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/subtractor.v|
+!i113 1
+R6
+R7
+vtriangle
+R16
+!i10b 1
+!s100 `>j]?WfeYHIa]J7SkSVS]3
+R0
+IBEl5^Q@A?b]U:G08Bcc_b3
+R1
+R2
+w1670168168
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/triangle.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/triangle.v
+!i122 15
+L0 1 15
+R4
+r1
+!s85 0
+31
+R15
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/triangle.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/triangle.v|
+!i113 1
+R6
+R7
+vwave_gen_core
+R16
+!i10b 1
+!s100 z=nKkOP_OHSgM26PDh`fc2
+R0
+I5m<mWROnVW>5XHzKzcXGW2
+R1
+R2
+w1670766657
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/wave_gen_core.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/wave_gen_core.v
+!i122 16
+L0 1 42
+R4
+r1
+!s85 0
+31
+R15
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/wave_gen_core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/wave_gen_core.v|
+!i113 1
+R6
+R7
+vwave_gen_core_tb
+!s110 1670768636
+!i10b 1
+!s100 AO`5>:bA0[zX]f=[HC4FY2
+R0
+I9W?3DV6JkzHLTU0Z7?^VR2
+R1
+R2
+w1670768625
+8E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/wave_gen_core_tb.v
+FE:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/wave_gen_core_tb.v
+!i122 20
+L0 2 32
+R4
+r1
+!s85 0
+31
+!s108 1670768636.000000
+!s107 E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/wave_gen_core_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/wave_gen_core_tb.v|
+!i113 1
+R6
+R7

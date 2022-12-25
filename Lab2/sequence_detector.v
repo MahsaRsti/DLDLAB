@@ -18,16 +18,13 @@ module sequence_detector(
 input   rst,clk,clk_en,SerIn,co;
 output reg  SerOutValid,inc_cnt,rst_cnt;
 output SerOut;
-
 reg [2:0] ps,ns;
-
 always@(posedge clk) begin
     if(rst)
         ps<=`init;
     else
         ps<=ns;
 end
-
 always @(*) begin
     case(ps)
         `init: ns <= `A;
@@ -52,7 +49,6 @@ always @(*) begin
         `FINAL: ns <= (co) ? `init : `FINAL;
     endcase
 end
-
 always @(ps) begin
     {SerOutValid,inc_cnt,rst_cnt}=3'b0;
     case(ps)
@@ -60,8 +56,5 @@ always @(ps) begin
         `FINAL:  {SerOutValid,inc_cnt}=2'b11;
     endcase
 end
-
-assign SerOut=(SerOutValid) ? SerIn : 1'bz;
-
-
+assign SerOut=(SerOutValid & clk_en) ? SerIn : 1'bz;
 endmodule

@@ -9,17 +9,14 @@ module onepulser(
 );
 input clk, long_pulse,rst;
 output reg single_pulse;
-
 reg [1:0] ps;
 reg [1:0] ns;
-
 always@(posedge clk) begin
     if(rst)
         ps<=`init;
     else
         ps<=ns;
 end
-
 always @(*) begin
     ns=`init;
     case(ps)
@@ -28,12 +25,8 @@ always @(*) begin
         `B: ns<=(long_pulse) ? `B : `init;
     endcase
 end
-
 always @(ps) begin
     single_pulse=1'b0;
     if(ps==`A) single_pulse=1'b1;
 end
-
-
-
 endmodule

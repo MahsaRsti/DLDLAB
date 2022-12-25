@@ -2,7 +2,6 @@ module tb();
     reg clk=1,clkPB=1,rst,SerIn;
     wire [6:0] seven_num;
     wire SerOut,SerOutValid;
-
 topmodule tp_module(
     clk,
     clkPB,
@@ -23,5 +22,5 @@ initial begin
     #300 SerIn=1;
     #300 SerIn=1;
 end
-
 endmodule
+

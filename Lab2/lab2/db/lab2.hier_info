@@ -1,7 +1,7 @@
 |topmodule
 clk => clk.IN3
 clkPB => clkPB.IN1
-rst => rst.IN1
+rst => rst.IN3
 SerIn => SerIn.IN1
 SerOut <= sequence_detector:seq_dtctr.SerOut
 SerOutValid <= sequence_detector:seq_dtctr.SerOutValid
@@ -16,6 +16,9 @@ seven_num[6] <= SevSeg:seven_seg.Num
 
 |topmodule|onepulser:oneplsr
 clk => ps~1.DATAIN
+rst => ps.OUTPUTSELECT
+rst => ps.OUTPUTSELECT
+rst => ps.OUTPUTSELECT
 long_pulse => ns.01.DATAB
 long_pulse => Selector1.IN2
 long_pulse => Selector0.IN1
@@ -23,10 +26,16 @@ single_pulse <= single_pulse.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |topmodule|sequence_detector:seq_dtctr
-rst => ps~3.DATAIN
+rst => ps.OUTPUTSELECT
+rst => ps.OUTPUTSELECT
+rst => ps.OUTPUTSELECT
+rst => ps.OUTPUTSELECT
+rst => ps.OUTPUTSELECT
+rst => ps.OUTPUTSELECT
 clk => ps~1.DATAIN
 clk_en => always1.IN0
 clk_en => always1.IN0
+clk_en => SerOut.IN0
 clk_en => ns.100.OUTPUTSELECT
 clk_en => ns.100.IN1
 clk_en => Selector3.IN2
@@ -50,10 +59,8 @@ clk => count_out[0]~reg0.CLK
 clk => count_out[1]~reg0.CLK
 clk => count_out[2]~reg0.CLK
 clk => count_out[3]~reg0.CLK
-rst_cnt => count_out.OUTPUTSELECT
-rst_cnt => count_out.OUTPUTSELECT
-rst_cnt => count_out.OUTPUTSELECT
-rst_cnt => count_out.OUTPUTSELECT
+rst => always0.IN0
+rst_cnt => always0.IN1
 clk_en => count_out.OUTPUTSELECT
 clk_en => count_out.OUTPUTSELECT
 clk_en => count_out.OUTPUTSELECT

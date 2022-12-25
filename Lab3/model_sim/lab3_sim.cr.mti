@@ -1,0 +1,134 @@
+E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DDS.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DDS.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DDS
+
+Top level modules:
+	DDS
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/quartus_sim/simulation/modelsim/quartus_sim.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module quartus_sim
+
+Top level modules:
+	quartus_sim
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/half_wave.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/half_wave.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module half_wave
+
+Top level modules:
+	half_wave
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/sine.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/sine.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sine
+
+Top level modules:
+	sine
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/model_sim/sinROM.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/model_sim/sinROM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sinROM
+
+Top level modules:
+	sinROM
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/sinROM.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/sinROM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sinROM
+
+Top level modules:
+	sinROM
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Counter.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DAC.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/DAC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DAC
+
+Top level modules:
+	DAC
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/wave_gen_core.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/wave_gen_core.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module wave_gen_core
+
+Top level modules:
+	wave_gen_core
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Reciprocal.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Reciprocal.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Reciprocal
+
+Top level modules:
+	Reciprocal
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Amplitude_selector.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Amplitude_selector.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Amplitude_selector
+
+Top level modules:
+	Amplitude_selector
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/full_wave.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/full_wave.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_wave
+
+Top level modules:
+	full_wave
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Register.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/triangle.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/triangle.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module triangle
+
+Top level modules:
+	triangle
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Adder.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/subtractor.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/subtractor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module subtractor
+
+Top level modules:
+	subtractor
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/square.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/square.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module square
+
+Top level modules:
+	square
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/counter_with_ld.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/counter_with_ld.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_with_ld
+
+Top level modules:
+	counter_with_ld
+
+} {} {}} E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Frequency_selector.v {1 {vlog -work work -stats=none E:/seventh_sem/az_sys/Lab2/DLDLAB/Lab3/Frequency_selector.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Frequency_selector
+
+Top level modules:
+	Frequency_selector
+
+} {} {}}
