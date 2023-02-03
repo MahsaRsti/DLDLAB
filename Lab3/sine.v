@@ -23,3 +23,4 @@ subtractor subtractor_cos(.a(cos_out),.b(shifted_sin),.res(cos_sub));
 assign sine_out_offset= sine_out[15:8] + 8'd127;
 
 endmodule
+

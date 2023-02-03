@@ -1,14 +1,12 @@
 module wave_gen_core(
     clk,
     rst,
-    // ld_reg,
     sel_func,
     phase_cntrl,
-    // inc_cnt,
     out
 );
 
-input clk,rst/*,ld_reg,inc_cnt*/;
+input clk,rst;
 input [2:0] sel_func;
 wire [7:0] cnt;
 input [1:0] phase_cntrl;

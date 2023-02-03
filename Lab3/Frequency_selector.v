@@ -14,3 +14,4 @@ counter_with_ld  #(.n(9)) freq_cnt(.clk(clk),.rst(rst),.inc_cnt(1'b1),.ld(co),
                                    .ld_value({6'b0,ld_value}),.co(co),.count_out(count_out));
 assign freq_out=co;
 endmodule
+

@@ -16,3 +16,4 @@ Register #(.n(8)) adr_reg(.d_in(adder_out), .rst(rst), .ld(ld_reg), .clk(clk),.i
 sinROM sine_ROM(.address(reg_out),.clock(clk),.q(DDS_out));
 
 endmodule
+

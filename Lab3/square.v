@@ -12,3 +12,4 @@ always @(cnt) begin
     else square_out<=8'd0;
 end
 endmodule
+
